@@ -1,61 +1,52 @@
-// Specific CSS for your home-page
-
 .banner {
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  padding: 100px 0;
-  min-height: 100vh;
-  width: auto;
-  margin:0;
+  padding: 150px 0;
+  height: 100vh;
+  margin: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 58px;
+  font-size: 80px;
   font-weight: bold;
-  padding-left: 17px;
-  margin-top: -2px;
 }
 
 .banner h2 {
-  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.banner h5 {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 16px;
-  text-align: left;
-  padding-left: 20px;
-  margin-top:25px ;
-}
-
-.banner h3 {
-  margin: 0;
-  color: black;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 16px;
-  text-align: left;
-  padding-left: 30px;
-  background: white;
+  font-weight: bold;
+  padding-left: 45px;
+  margin-top: -18px ;
 }
 
 .banner p {
-  font-size: 13px;
+  font-size: 20px;
   color: white;
-  opacity: .9;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  margin-left: 34px;
-  margin-top: -15px;
 }
 
-.row {    
-color: black;
-margin: 15px;
-line-height: 1;
-border: solid 1px white;
-background: white;
-margin-left: 18px;
-margin-top: 50vh;
+.footer-copyright {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding-top:280px;
+  position: sticky;
+}
+.form-email{
+  padding-top: 150px;
+  width: 100%;
 
 }
