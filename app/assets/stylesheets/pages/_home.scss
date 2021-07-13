@@ -6,6 +6,7 @@
   margin: 0;
   padding-left: 0 !important;
   padding-right: 0 !important;
+ 
 }
 
 .banner h1 {
@@ -20,15 +21,13 @@
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 24px;
-  font-weight: bold;
 }
 
 .banner h5 {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 16px;
-  font-weight: bold;
-  padding-left: 45px;
+  padding-left: 50px;
   margin-top: -18px ;
 }
 
@@ -47,9 +46,9 @@
 }
 
 .form-email{
-  padding-top: 120px;
+  padding-top: 50px;
   width: 100%;
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .form-email h2{
@@ -57,7 +56,6 @@ margin-bottom: 5px;
   width: 100%;
   display:  flex;
   margin-bottom: 1.5rem;
-
 }
 
 .container-form {
@@ -66,5 +64,8 @@ margin-bottom: 5px;
   padding-right: -15px !important;
   padding-left: -15px !important;
   height: 100vh;
-  
+}
+
+.form-control { 
+  width: 255px;
 }
