@@ -23,7 +23,7 @@ gem 'redis', '~> 4.0'
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use sendgrid
-gem 'sendgrid-ruby'
+# gem 'sendgrid-ruby' => 'dont work with ruby 2.6'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
