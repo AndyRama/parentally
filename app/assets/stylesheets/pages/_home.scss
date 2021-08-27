@@ -9,6 +9,7 @@
   padding-right: 0 !important;
   padding-top: 0 !important;
  
+ 
 }
 
 .banner h1 {
@@ -39,16 +40,17 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.footer-copyright {
+.footer {
   display: flex;
-  justify-content: flex-end;
-  color: white;
-  padding-top:500px;
+  justify-content: flex-start;
+  color: black;
+  // padding-top:500px;
+  padding-bottom: 5px;
   position: sticky;
 }
 
 .form-email{
-  // padding-top: 50px;
+  padding-top: 50px;
   width: 100%;
   margin-bottom: 5px;
 }
@@ -70,4 +72,7 @@
 
 .form-control { 
   width: 255px;
+}
+#form {
+align-content: center !important;
 }

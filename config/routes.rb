@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   get "/privacy" => "pages#privacy", as: :privacy
+  get "/test" => "pages#test", as: :test
 end

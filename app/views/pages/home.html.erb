@@ -1,52 +1,41 @@
-<div class="row">
-  <div class="col-12 col-lg-8">
-    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
-        <div class="banner">
-        <div class="container">
-          <h2>COMMING SOON</h2>
-          <h1>parentally.</h1>
-          <h5>Your parental wellbeing within reach.</h5>
-        </div>
-          <h2>Seach and book consultations with qualified and caring therapists</h2>
-<p>Learn more</p>
-<a href="#"><i class="fas fa-chevron-down"></i></a>
-      </div>
-    </div>
-  </div>
-  <div class="col-8 col-lg-4">
-      <div class="container-fluid">
-        <div class="form-email">
-          <h1><strong>SIGN UP NOW !</strong></h1>
-          <p>Curious to hear about our lauch? Leave your email below</p>
-          <form class="form">
-          <p>I am parent</p>
-            <div class="form-group">
-              <div class="form-group mx-sm-3 s">
-                <label for="email" class="sr-only">Email</label>
-                <input type="email" class="form-control" id="inputemail1" placeholder="Enter your email">
-              </div>
-            <button type="submit" class="btn btn-flat"> Send</button>
-          </form>
-        </div>
-      </div>
-      <form class="form">
-          
-          <div class="form-group">
-            <div class="form-group mx-sm-3 s">
-              <div class="type"><p>I am therapist</p></div>
-              <label for="email" class="sr-only">Email</label>
-              <input type="email" class="form-control" id="inputemail2" placeholder="Enter your email">
-            </div>
-          <button type="submit" class="btn btn-flat"> Send</button>
-        </form>
-    </div>
-    <div class="footer">
-      <div class="footer-links">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <p>Contact Us</p>
+<div class="row align-items-center g-lg-5">
+  <div class="col-lg-7">
+    <div class="banner">
+      <div class="container">
+        <h3 class="display-6">Comming Soon</h3>
+        <h1 class="display-3">Parentally.</h1>
+        <h5 class="display-4">Your parental wellbeing within reach.</h5>
+        <p class="col-lg-10 fs-4"><h2>Seach and book consultations <br> with qualified and caring therapists</h2></p>
+        <p>Learn more</p>
+        <a href="#SignUp"><i class="fas fa-chevron-down text-white"></i></a><br>
         <a href="/privacy">Privacy and cookies</a>
       </div>
     </div>
   </div>
+  <div class="col-md-10 mx-auto col-lg-4"> 
+    <form class="p-4 p-md-6 border rounded-4 bg-light">
+      <div class="form-floating mb-3">
+        <h2>Seach and book <br> consultations with <br> qualified and caring <br> therapists</h2>
+        <h1 id="SignUp"><strong>SIGN UP NOW!</strong></h1>
+        <p>Curious to hear about our lauch ?<br> Leave your email below</p>
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="parent"class="mb-3"> I am parent
+              <input type="email" class="form-control mb-3 text-lg-center " id="floatingInput" placeholder="name@example.com">
+              <input type="first-name" class="form-control mb-3 text-lg-center" id="floatingPassword" placeholder="first-name">
+              <input type="last-name" class="form-control text-lg-center" id="floatingPassword" placeholder="Last-name">
+            </label>
+          </div>
+          <button class="w-20 btn btn-lg btn-primary align-content-end" type="submit">Sign up</button>
+          <div class="footer">
+            <div class="footer-links ">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <p>Contact Us</p>
+            </div>
+          </div>
+          <a href="/privacy" class="align-content-end mr-0">Privacy and cookies policies</a>
+      </div>
+    </div>
+  </form>
 </div>
