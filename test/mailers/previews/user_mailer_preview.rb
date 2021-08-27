@@ -2,8 +2,8 @@
 class UserMailerPreview < ActionMailer::Preview
 
   # Preview this email at http://localhost:3000/rails/mailers/user_mailer/contact
-  def contact(user)
-    user =user.first
+  def contact
+    user = User.first
     UserMailer.contact(user)
   end
 
